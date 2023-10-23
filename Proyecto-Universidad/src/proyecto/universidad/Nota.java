@@ -36,5 +36,34 @@ public class Nota {
         return tipoNota;
     }
 
-    
+    public void setTipoNota(String tipoNota) {
+        this.tipoNota = tipoNota;
+    }
+
+    public String getEstadoNota() {
+        return estadoNota;
+    }
+
+    public void setEstadoNota(String estadoNota) {
+        this.estadoNota = estadoNota;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    @Override
+    public String toString() {
+        return "Nota{" +
+                "curso=" + curso +
+                ", calificacion=" + calificacion +
+                ", tipoNota='" + tipoNota + '\'' +
+                ", estadoNota='" + estadoNota + '\'' +
+                ", peso=" + peso +
+                '}';
+    }
 }
