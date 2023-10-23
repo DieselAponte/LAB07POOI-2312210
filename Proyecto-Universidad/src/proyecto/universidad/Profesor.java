@@ -44,5 +44,14 @@ public class Profesor extends Persona {
     public void asignarCurso(Curso curso) {
         
     }
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "numHoras=" + numHoras +
+                ", aniosExperiencia=" + aniosExperiencia +
+                ", cursos=" + Arrays.toString(cursos) +
+                "} " + super.toString();
+    }
+}
 
 
