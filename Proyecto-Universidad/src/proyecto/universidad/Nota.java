@@ -16,5 +16,25 @@ public class Nota {
         this.peso = peso;
     }
 
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
+    public double getCalificacion() {
+        return calificacion;
+    }
+
+    public void setCalificacion(double calificacion) {
+        this.calificacion = calificacion;
+    }
+
+    public String getTipoNota() {
+        return tipoNota;
+    }
+
     
 }
