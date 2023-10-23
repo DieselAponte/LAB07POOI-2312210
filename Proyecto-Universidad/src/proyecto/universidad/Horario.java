@@ -20,5 +20,63 @@ public class Horario {
         this.horaFin = horaFin;
     }
 
-    
+    public int getDia() {
+        return dia;
+    }
+
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+
+    public int getMes() {
+        return mes;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
+    public int getAño() {
+        return año;
+    }
+
+    public void setAño(int año) {
+        this.año = año;
+    }
+
+    public int getCiclo() {
+        return ciclo;
+    }
+
+    public void setCiclo(int ciclo) {
+        this.ciclo = ciclo;
+    }
+
+    public String getHoraInicio() {
+        return horaInicio;
+    }
+
+    public void setHoraInicio(String horaInicio) {
+        this.horaInicio = horaInicio;
+    }
+
+    public String getHoraFin() {
+        return horaFin;
+    }
+
+    public void setHoraFin(String horaFin) {
+        this.horaFin = horaFin;
+    }
+
+    @Override
+    public String toString() {
+        return "Horario{" +
+                "dia=" + dia +
+                ", mes=" + mes +
+                ", año=" + año +
+                ", ciclo=" + ciclo +
+                ", horaInicio='" + horaInicio + '\'' +
+                ", horaFin='" + horaFin + '\'' +
+                '}';
+    }
 }
