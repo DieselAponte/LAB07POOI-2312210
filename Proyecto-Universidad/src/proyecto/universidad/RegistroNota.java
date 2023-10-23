@@ -48,13 +48,15 @@ public class RegistroNota {
         return notaMinima;
     }
 
+    public double getNotaMinimaAprobacion() {
+        return notaMinimaAprobacion;
+    }
+    
     public double getNotaMaxima() {
         return notaMaxima;
     }
 
-    public double getNotaMinimaAprobacion() {
-        return notaMinimaAprobacion;
-    }
+    
 
     @Override
     public String toString() {
