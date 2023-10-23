@@ -19,8 +19,45 @@ public class Facultad {
         this.carreras = carreras;
         this.decana = decana;
     }
+        public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 
+    public String getNombreFacultad() {
+        return nombreFacultad;
+    }
+
+    public void setNombreFacultad(String nombreFacultad) {
+        this.nombreFacultad = nombreFacultad;
+    }
+
+    public char getPabellon() {
+        return pabellon;
+    }
+
+    public void setPabellon(char pabellon) {
+        this.pabellon = pabellon;
+    }
+
+    public Carrera[] getCarreras() {
+        return carreras;
+    }
+
+    public void setCarreras(Carrera[] carreras) {
+        this.carreras = carreras;
+    }
+
+    public String getDecana() {
+        return decana;
+    }
+
+    public void setDecana(String decana) {
+        this.decana = decana;
+    }
 
     @Override
     public String toString() {
