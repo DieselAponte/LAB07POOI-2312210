@@ -36,13 +36,12 @@ public class TestPrincipal {
         Horario horario = new Horario(1, 1, 2023, 1, "8:00 AM", "10:00 AM");
         System.out.println(horario);
 
+        RegistroNota registroNota = new RegistroNota(1, profesor, new Estudiante[0]);
+        System.out.println(registroNota);
+        
         Nota nota = new Nota(curso, 18.5, "Parcial", "Aprobado", 0.2);
         System.out.println(nota);
 
-        RegistroNota registroNota = new RegistroNota(1, profesor, new Estudiante[0]);
-        System.out.println(registroNota);
-
-       
         estudiante.agregarCurso(curso);
         estudiante.asistencia("Registro de asistencia");
 
