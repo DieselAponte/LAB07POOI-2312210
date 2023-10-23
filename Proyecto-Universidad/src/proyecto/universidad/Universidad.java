@@ -48,12 +48,4 @@ public class Universidad {
     }
 
     @Override
-    public String toString() {
-        return "Universidad{" +
-                "nombre='" + nombre + '\'' +
-                ", sedes=" + Arrays.toString(sedes) +
-                ", facultades=" + Arrays.toString(facultades) +
-                ", rector='" + rector + '\'' +
-                '}';
-    }
-}
+   
